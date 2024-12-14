@@ -77,7 +77,7 @@ class ResultFragment : Fragment() {
             lineChartRef = WeakReference(chartView)
             val entries: List<Entry> = sortedPoints.map { Entry(it.x, it.y) }
 
-            val dataSet = LineDataSet(entries, "Пример данных").apply {
+            val dataSet = LineDataSet(entries, resources.getString(R.string.points_line)).apply {
                 color = Color.BLUE
                 valueTextColor = Color.BLACK
                 lineWidth = 2f
@@ -95,7 +95,7 @@ class ResultFragment : Fragment() {
                 axisLeft.isEnabled = true
                 axisRight.isEnabled = false
 
-                description = Description().apply { text = "Сглаженный график" }
+                description = Description().apply { text = resources.getString(R.string.chart_desc) }
                 animateX(1000)
             }
         }

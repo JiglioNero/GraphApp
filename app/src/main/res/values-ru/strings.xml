@@ -9,4 +9,6 @@
     <string name="error_message">Ошибка</string>
     <string name="input_correct_points_count_msg">Введите корректное количество точек (1-1000)</string>
     <string name="image_saved_msg">Изображение сохранено</string>
+    <string name="chart_desc">Это график!</string>
+    <string name="points_line">Точки</string>
 </resources>

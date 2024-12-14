@@ -8,5 +8,8 @@
     <string name="error_message">Error</string>
     <string name="input_correct_points_count_msg">Input correct points count (1-1000)</string>
     <string name="image_saved_msg">Image saved</string>
+    <string name="chart_desc">This is a chart!</string>
+    <string name="points_line">Points</string>
+    <string name="base_url" translatable="false">https://hr-challenge.dev.tapyou.com/</string>
 
 </resources>
