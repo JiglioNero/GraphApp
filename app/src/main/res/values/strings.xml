@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name" translatable="false">GraphApp</string>
+    <string name="input_points_count">Input points count:</string>
+    <string name="loading">loading...</string>
+    <string name="points_count">Points count</string>
+    <string name="go_btn">Go</string>
+    <string name="save_chart_btn">Save chart</string>
+    <string name="error_message">Error</string>
+    <string name="input_correct_points_count_msg">Input correct points count (1-1000)</string>
+    <string name="image_saved_msg">Image saved</string>
+
+</resources>

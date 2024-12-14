@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GraphApp</string>
+    <string name="input_points_count">Введите количество точек:</string>
+    <string name="loading">загрузка...</string>
+    <string name="points_count">Количество точек</string>
+    <string name="go_btn">Поехали</string>
+    <string name="save_chart_btn">Сохранить график</string>
+    <string name="error_message">Ошибка</string>
+    <string name="input_correct_points_count_msg">Введите корректное количество точек (1-1000)</string>
+    <string name="image_saved_msg">Изображение сохранено</string>
+</resources>
