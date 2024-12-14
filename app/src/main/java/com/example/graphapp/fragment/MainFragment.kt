@@ -71,7 +71,7 @@ class MainFragment : Fragment() {
         btnGo.setOnClickListener {
             val countStr = etCount.text.toString()
             val count = countStr.toIntOrNull()
-            if (count != null && count > 0) {
+            if (count != null && count > 0 && count <= 1000) {
                 viewModel.loadPoints(count)
             } else {
                 Toast.makeText(requireContext(), resources.getString(R.string.input_correct_points_count_msg), Toast.LENGTH_SHORT).show()
